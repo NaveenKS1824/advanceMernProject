@@ -8,7 +8,7 @@ const orderRoutes = require('./routes/orderRoutes');
 const cors = require('cors');
 
 mongoose.connect(
-    "mongodb://localhost:27017/ecom"
+    "mongodb+srv://srdvsekar:Ue1VOqElsfdQ7RED@cluster0.x7zck2i.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 ).then(()=>{
     console.log("Connected to databases");
 }).catch((e)=>{
