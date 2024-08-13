@@ -1,0 +1,48 @@
+.mainContainer{
+    width: 100%;
+    display : flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin:5px;
+}
+.main{
+    width: 300px;
+    height: 600px;
+    margin: 5px;
+    padding: auto;
+    border: 2px solid rgb(137, 127, 127);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 10px 15px;
+}
+.main button{
+    background-color: rgb(224, 212, 169);
+    border: none;
+    height: 50px;
+    width: 45%;
+    border-radius: 10px;
+    margin: 5px;
+}
+.main button a{
+    text-decoration: none;
+    color: inherit;
+}
+.main button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 1s;
+}
+.main button:active{
+    background-color: rgb(198, 151, 90);
+}
+.ImageContainer{
+    display: flex;
+    justify-content: center;
+}
+.ImageContainer img{
+    /* padding-left: 25%; */
+    height: 160px;
+}
+.Content{
+    width: 280px;
+}

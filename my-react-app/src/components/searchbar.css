@@ -1,0 +1,20 @@
+.mainSearch input{
+    width: 500px;
+    height: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    border:1px solid rgb(204, 183, 133);
+    border-radius:8px ;
+}
+.mainSearch button{
+    width: 100px;
+    height: 25px;
+    background-color: rgb(230, 199, 160);
+    border-radius: 4px;
+    border: none;
+}
+.mainSearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

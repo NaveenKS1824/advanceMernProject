@@ -1,0 +1,43 @@
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c1ac82;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logoHeader {
+    flex: 1;
+}
+
+.logoHeader h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.remaining {
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.remaining h3 {
+    margin: 0 10px;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+}
+
+.remaining a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.remaining a h3:hover,
+.remaining h3:hover {
+    color: #e8f0ed;
+    transition: color 0.3s;
+}

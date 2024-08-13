@@ -1,0 +1,16 @@
+:root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+  background-color: rgb(224, 212, 169);
+  border: none;
+  width: 50px;
+  height: 20px;
+  border-radius: 10px;
+  margin: 5px;
+}
+button:hover{
+  transform: scale(1.2);
+  transition: 0.9s;
+}
+
